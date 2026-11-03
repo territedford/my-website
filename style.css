@@ -32,8 +32,7 @@ text-decoration: underline;
 
 .site-header {
 background-color: #6b7a70;
-padding: 40px 0;
-
+padding: 60px 0 40px;
 margin-left: -20px;
 margin-right: -20px;
 }
