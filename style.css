@@ -38,7 +38,7 @@ margin: 0 20px;
 }
 
 .site-header {
-background-color: #7A8A80;
+background-color: #60707A;
 padding: 60px 0 40px;
 margin-left: -20px;
 margin-right: -20px;
@@ -48,4 +48,18 @@ margin-right: -20px;
 max-width: 1200px;
 margin: 0 auto;
 text-align: center;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
 }
