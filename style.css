@@ -9,7 +9,7 @@ flex-direction: column;
 
 font-family: Georgia, serif;
 margin: 0;
-padding: 20px;
+padding: 0;
 line-height: 1.7;
 color: #333;
 background-color: #faf8f6;
@@ -56,10 +56,8 @@ margin: 0 20px;
 }
 
 .site-header {
-background-color: #60707A;
-padding: 60px 0 40px;
-margin-left: -20px;
-margin-right: -20px;
+background-color: #6b7a70;
+padding: 70px 0 50px;
 }
 
 .header-content {
@@ -118,12 +116,11 @@ text-align: center;
     color: #333;
 }
 
-footer {
-text-align: center;
-padding: 20px 0;
+.footer {
 border-top: 1px solid #d8d8d8;
+padding: 25px 0;
 color: #777;
-margin-top: 40px;
+font-size: 0.9rem;
 }
 
 html,
