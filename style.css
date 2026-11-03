@@ -1,16 +1,16 @@
 body {
 font-family: Georgia, serif;
-max-width: 1000px;
 margin: 0;
-padding: 20px;
+padding: 0;
 line-height: 1.7;
 color: #333;
 background-color: #faf8f6;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+max-width: 1000px;
+margin: 0 auto;
+padding: 20px;
 }
  
 h1 {
@@ -31,13 +31,13 @@ text-decoration: underline;
 }
 
 .site-header {
-    background-color: #6b7a70;
-    padding: 40px 0;
-    width: 100%;
+background-color: #6b7a70;
+padding: 40px 0;
+width: 100%;
 }
 
 .header-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
+max-width: 1200px;
+margin: 0 auto;
+text-align: center;
 }
