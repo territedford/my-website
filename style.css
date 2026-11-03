@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 line-height: 1.7;
 color: #333;
-background-color: #7A8A80;
+background-color: #faf8f6;
 }
 
 .container {
@@ -38,7 +38,7 @@ margin: 0 20px;
 }
 
 .site-header {
-background-color: #6b7a70;
+background-color: #7A8A80;
 padding: 60px 0 40px;
 margin-left: -20px;
 margin-right: -20px;
