@@ -104,6 +104,20 @@ text-align: center;
     color: #666;
 }
 
+.section-label {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: .9rem;
+    color: #6b7a70;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: #333;
+}
+
 footer {
 text-align: center;
 padding: 20px 0;
