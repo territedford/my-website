@@ -118,9 +118,12 @@ text-align: center;
 
 .footer {
 border-top: 1px solid #d8d8d8;
-padding: 25px 0;
-color: #777;
-font-size: 0.9rem;
+
+    margin-left: -20px;
+    margin-right: -20px;
+
+    text-align: center;
+    padding-top: 20px;
 }
 
 html,
