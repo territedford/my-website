@@ -102,6 +102,25 @@ text-align: center;
     color: #666;
 }
 
+.book-announcement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 100px auto;
+    max-width: 1000px;
+}
+
+.book-cover img {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.book-info {
+    max-width: 500px;
+}
+
 .section-label {
     text-transform: uppercase;
     letter-spacing: 3px;
