@@ -121,6 +121,19 @@ text-align: center;
     margin: 40px 0;
 }
 
+.social-icons {
+    margin-bottom: 30px;
+}
+
+.privacy-link {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
 .social-icons a {
     color: #7c2d3f;
     font-size: 1.6rem;
@@ -133,11 +146,11 @@ text-align: center;
     opacity: 0.7;
 }
 
-.footer-mark {
-    text-align: center;
-    color: #999;
+.footer-slash {
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-size: 1.2rem;
-    margin-bottom: 25px;
+    color: #999;
 }
 
 .footer {
