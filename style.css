@@ -116,16 +116,16 @@ padding: 80px 0;
 }
 
 .book-announcement {
-    display: flex;
-    align-items: center;
-    gap: 80px;
-
     background-color: #efe7df;
 
     margin-left: -20px;
     margin-right: -20px;
 
     padding: 80px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
 .announcement-date {
@@ -153,17 +153,17 @@ padding: 80px 0;
 }
 
 .book-cover img {
-    width: 380px;
-    max-width: 100%;
+    width: 375px;
     height: auto;
-
     display: block;
-    margin: 0 auto;
-
-    box-shadow: 0 15px 30px rgba(0, 0, 0, .15);
 }
 
 .book-info {
+    flex: 1;
+    text-align: left;
+}
+
+.book-details {
     flex: 1;
     text-align: left;
 }
