@@ -216,6 +216,28 @@ text-align: center;
     margin-bottom: 25px;
 }
 
+.announcement-quote {
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 900px;
+    margin: 50px auto;
+
+    font-family: Georgia, serif;
+    color: #2f2f2f;
+}
+
+.book-title {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.announcement-date {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #6a2d43;
+}
+
 .footer-divider {
     display: inline-block;
     margin: 0 12px;
