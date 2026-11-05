@@ -15,6 +15,11 @@ color: #333;
 background-color: #faf8f6;
 }
 
+.logo {
+    width: 450px;
+    height: auto;
+}
+
 .container {
 max-width: 1000px;
 margin: 0 auto;
@@ -72,6 +77,13 @@ text-align: center;
 padding: 80px 0;
 }
 
+.hero h2 {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.4;
+    font-size: 2rem;
+}
+
 .genre {
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -84,13 +96,6 @@ padding: 80px 0;
     text-transform: uppercase;
     color: #ffffff;
     font-size: 0.9rem;
-}
-
-.hero h2 {
-    max-width: 700px;
-    margin: 20px auto;
-    line-height: 1.4;
-    font-size: 2rem;
 }
 
 .featured-book {
@@ -111,36 +116,67 @@ padding: 80px 0;
 }
 
 .book-announcement {
+    background-color: #efe7df;
+
+    margin-left: -20px;
+    margin-right: -20px;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    padding: 100px 40px;
+
     text-align: center;
-    margin: 100px auto;
-    max-width: 1000px;
+}
+
+.announcement-date {
+    color: #6a2d43;
+
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+
+    margin: 0 0 40px 0;
+}
+
+.book-title {
+    color: #6a2d43;
+
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    margin: 0 0 50px 0;
+}
+
+.book-cover {
+    margin-bottom: 60px;
 }
 
 .book-cover img {
-    float: left;
-    width: 400px;
+    width: 450px;
+    max-width: 100%;
     height: auto;
-    margin-bottom: 80px;
-    box-shadow: 0 10px 25px rgba(0,0,0,.15);
-}
 
-.book-info {
-    max-width: 900px;
+    display: block;
     margin: 0 auto;
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .15);
 }
 
-.section-label {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: .9rem;
-    color: #6b7a70;
-    margin-bottom: 10px;
+.announcement-quote {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    font-style: normal;
+    color: #6a2d43;
+    font-size: 2.5rem;
+    line-height: 1.2;
 }
 
-.section-text {
-    font-size: 1.6rem;
-    line-height: 1.4;
-    color: #333;
+.privacy-link {
+    margin-bottom: 20px;
 }
 
 .social-icons {
@@ -149,20 +185,6 @@ padding: 80px 0;
 }
 
 .social-icons {
-    margin-bottom: 30px;
-}
-
-.privacy-link {
-    margin-bottom: 20px;
-}
-
-.logo {
-    width: 450px;
-    height: auto;
-}
-
-.footer p {
-    margin-top: 0;
     margin-bottom: 30px;
 }
 
@@ -178,66 +200,9 @@ padding: 80px 0;
     opacity: 0.7;
 }
 
-.announcement {
-    background-color: #f3ede7;
-
-    margin-left: -20px;
-    margin-right: -20px;
-
-    padding: 120px 40px;
-
-    text-align: center;
-}
-
-.announcement-headline {
-    max-width: 900px;
-
-    margin: 0 auto 30px;
-
-    font-size: 3rem;
-    font-weight: 500;
-    line-height: 1.2;
-
-    color: #2f2f2f;
-}
-
-.announcement-label {
-    color: #7c2d3f;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.announcement-title {
-    font-size: 2.75rem;
-    margin-bottom: 25px;
-}
-
-.announcement-quote {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-
+.footer p {
     margin-top: 0;
-    margin-bottom: 70px;
-}
-
-.book-title {
-    font-size: 1.4rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
-    margin-top: 0;
-    margin-bottom: 40px;
-}
-
-.announcement-date {
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: #6a2d43;
-
-    display: block;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .footer-divider {
