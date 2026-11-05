@@ -187,9 +187,21 @@ text-align: center;
 
     margin-top: 80px;
 
-    padding: 100px 40px;
+    padding: 120px 40px;
 
     text-align: center;
+}
+
+.announcement-headline {
+    max-width: 900px;
+
+    margin: 0 auto 30px;
+
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+    color: #2f2f2f;
 }
 
 .announcement-label {
