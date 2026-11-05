@@ -120,8 +120,9 @@ text-align: center;
 }
 
 .book-cover img {
-    width: 250px;
+    width: 400px;
     height: auto;
+    margin-bottom: 50px;
     box-shadow: 0 10px 25px rgba(0,0,0,.15);
 }
 
