@@ -120,7 +120,7 @@ padding: 80px 0;
     float: left;
     width: 400px;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     box-shadow: 0 10px 25px rgba(0,0,0,.15);
 }
 
@@ -214,14 +214,12 @@ padding: 80px 0;
 }
 
 .announcement-quote {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
     max-width: 900px;
-
-    margin: 60px auto;
-
-    font-size: 3rem;
-    line-height: 1.15;
-
-    color: #6a2d43;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .book-title {
@@ -236,6 +234,8 @@ padding: 80px 0;
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #6a2d43;
+
+    margin-bottom: 50px;
 }
 
 .footer-divider {
