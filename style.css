@@ -120,6 +120,7 @@ text-align: center;
 }
 
 .book-cover img {
+    float: left;
     width: 400px;
     height: auto;
     margin-bottom: 50px;
@@ -128,6 +129,7 @@ text-align: center;
 
 .book-info {
     max-width: 500px;
+    display: inline-block;
 }
 
 .section-label {
