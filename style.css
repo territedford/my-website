@@ -178,6 +178,31 @@ text-align: center;
     opacity: 0.7;
 }
 
+.announcement {
+    background-color: #f3ede7;
+
+    margin-left: -20px;
+    margin-right: -20px;
+
+    margin-top: 80px;
+
+    padding: 100px 40px;
+
+    text-align: center;
+}
+
+.announcement-label {
+    color: #7c2d3f;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.announcement-title {
+    font-size: 2.75rem;
+    margin-bottom: 25px;
+}
+
 .footer-divider {
     display: inline-block;
     margin: 0 12px;
