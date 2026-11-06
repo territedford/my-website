@@ -54,12 +54,18 @@ text-decoration: none;
 }
 
 .navigation a {
-color: #f8f4ef;    
+color: #f8f4ef;
+transition: opacity 0.3s ease;  
 text-transform: uppercase;
 letter-spacing: 2px;
 font-size: 0.90rem;
 margin: 0 25px;
 font-weight: 400;
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    opacity: 0.8;
 }
 
 .site-header {
