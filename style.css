@@ -50,15 +50,15 @@ text-decoration: none;
 }
  
 a:hover {
-text-decoration: underline;
+text-decoration: none;
 }
 
 .navigation a {
 color: #f8f4ef;    
 text-transform: uppercase;
 letter-spacing: 2px;
-font-size: 0.85rem;
-margin: 0 20px;
+font-size: 0.90rem;
+margin: 0 25px;
 font-weight: 600;
 }
 
