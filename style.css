@@ -54,11 +54,12 @@ text-decoration: underline;
 }
 
 .navigation a {
+color: #f8f4ef;    
 text-transform: uppercase;
 letter-spacing: 2px;
 font-size: 0.85rem;
 margin: 0 20px;
-font-weight: 500;
+font-weight: 600;
 }
 
 .site-header {
