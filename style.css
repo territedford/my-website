@@ -436,3 +436,59 @@ body {
 .container {
     flex: 1;
 }
+
+@media (max-width: 768px) {
+
+    .logo {
+        width: 300px;
+    }
+
+    .navigation a {
+        display: block;
+        margin: 12px 0;
+    }
+
+    .book-announcement {
+        flex-direction: column;
+
+        padding: 40px 20px;
+
+        text-align: center;
+    }
+
+    .book-cover img {
+        width: 280px;
+    }
+
+    .book-details {
+        width: auto;
+        max-width: 100%;
+
+        padding: 35px 25px;
+
+        text-align: center;
+    }
+
+    .book-title {
+        font-size: 1.75rem;
+    }
+
+    .announcement-quote {
+        font-size: 1.5rem;
+    }
+
+    .about-home h2,
+    .updates-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .signup-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .signup-form input {
+        width: 100%;
+        max-width: 320px;
+    }
+}
