@@ -20,10 +20,10 @@ background-color: #faf8f6;
     height: auto;
 }
 
-.container {
+container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px 20px;
+    padding: 0;
 }
 
 .container {
