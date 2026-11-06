@@ -229,6 +229,72 @@ padding: 80px 0;
     transform: translateY(-1px);
 }
 
+.updates-section {
+    text-align: center;
+
+    padding: 100px 20px;
+
+    max-width: 700px;
+
+    margin: 0 auto;
+}
+
+.updates-section h2 {
+    font-size: 2.2rem;
+
+    margin-bottom: 20px;
+}
+
+.updates-section p {
+    font-size: 1.1rem;
+
+    color: #666;
+
+    margin-bottom: 40px;
+}
+
+.signup-form {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+}
+
+.signup-form input {
+    width: 320px;
+
+    padding: 14px 18px;
+
+    border: 1px solid #d8d8d8;
+
+    border-radius: 8px;
+
+    font-size: 1rem;
+}
+
+.signup-form button {
+    padding: 14px 28px;
+
+    background-color: #6a2d43;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 0.9rem;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+}
+
 .privacy-link {
     margin-bottom: 20px;
 }
