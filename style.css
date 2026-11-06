@@ -198,6 +198,37 @@ padding: 80px 0;
     line-height: 1.25;
 }
 
+.order-button {
+    display: inline-block;
+
+    margin-top: 35px;
+
+    padding: 14px 30px;
+
+    background-color: #6a2d43;
+    color: #ffffff;
+
+    border-radius: 8px;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    font-weight: 600;
+
+    text-decoration: none !important;
+
+    transition: all 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #7c2d3f;
+    color: #ffffff;
+
+    text-decoration: none !important;
+
+    transform: translateY(-1px);
+}
+
 .privacy-link {
     margin-bottom: 20px;
 }
