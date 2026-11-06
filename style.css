@@ -363,19 +363,23 @@ padding: 80px 0;
 }
 
 .social-icons {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .social-icons a {
-    color: #7c2d3f;
+    color: #d8c7b7;
+
     font-size: 1.6rem;
+
     margin: 0 15px;
-    text-decoration: none;
+
+    text-decoration: none !important;
+
     transition: opacity 0.3s ease;
 }
 
 .social-icons a:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .footer p {
