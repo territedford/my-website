@@ -68,6 +68,13 @@ font-weight: 400;
     opacity: 0.8;
 }
 
+.navigation a,
+.navigation a:hover,
+.navigation a:visited,
+.navigation a:active {
+    text-decoration: none;
+}
+
 .site-header {
 background-color: #6a2d43;
 padding: 70px 0 50px;
