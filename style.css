@@ -423,6 +423,10 @@ padding: 80px 0;
     color: #d8c7b7;
 }
 
+/* ========================================
+  GLOBAL
+======================================== */
+
 html,
 body {
     height: 100%;
@@ -436,6 +440,34 @@ body {
 .container {
     flex: 1;
 }
+
+/* ========================================
+   PRIVACY POLICY PAGE
+======================================== */
+
+.privacy-policy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.privacy-policy h1 {
+    color: #6a2d43;
+    margin-bottom: 10px;
+}
+
+.last-updated {
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.privacy-policy h2 {
+    margin-top: 40px;
+}
+
+/* ========================================
+  MOBILE
+======================================== */
 
 @media (max-width: 768px) {
 
