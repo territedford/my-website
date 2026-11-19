@@ -453,6 +453,45 @@ body {
 }
 
 /* ========================================
+   ABOUT PAGE
+======================================== */
+.about-page {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.about-page h1 {
+    color: #000000;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-text {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.about-email a {
+    color: #6a2d43;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.about-email a:hover {
+    opacity: 0.8;
+}
+
+.about-note {
+    color: #777;
+    margin-top: 25px;
+}
+
+/* ========================================
    CONTACT PAGE
 ======================================== */
 
